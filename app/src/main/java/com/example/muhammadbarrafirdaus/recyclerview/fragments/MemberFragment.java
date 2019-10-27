@@ -32,6 +32,7 @@ public class MemberFragment extends Fragment{
     public void onAttach(Context context) {
         super.onAttach(context);
         this.context = context;
+        
     }
 
     @Nullable
@@ -60,7 +61,7 @@ public class MemberFragment extends Fragment{
     private void loadData(){
         List<Member> memberList = new ArrayList<>();
         Member member;
-
+        // Gambar
         int thumb[] = {R.drawable.cow, R.drawable.elephant, R.drawable.monkey,
                 R.drawable.moose, R.drawable.ostrich, R.drawable.penguin,
                 R.drawable.bee, R.drawable.crab, R.drawable.crocodile,
